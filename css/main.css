@@ -12,6 +12,10 @@
     max-width:200px;
 }
 
+.show {
+    display:block;
+}
+
  .navbar-brand {
      padding:0px;
  }
