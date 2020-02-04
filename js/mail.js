@@ -9,6 +9,6 @@ Email.send({
     Subject : "New message for Webmark Studio",
     Body : sendername + '<br><br>' + msg 
 }).then(
-  message => alert(message)
+  message => alert('Message sent!')
 );
 }
