@@ -28,8 +28,6 @@
 
     <!-- Theme CSS -->
     <link href="css/main.css" rel="stylesheet" />
-
-    
   </head>
 
   <body id="page-top">
@@ -627,7 +625,10 @@
         <div class="row margin10">
           <div class="col-lg-8 col-lg-offset-2">
             <form
-            name="contact" 
+              name="sentMessage"
+              id="contactForm"
+              method="POST"
+              data-netlify="true"
             >
               <div class="row control-group">
                 <div
@@ -684,16 +685,13 @@
               <div id="success"></div>
               <div class="row">
                 <div class="form-group col-xs-12 buttonDiv">
-                
-                    <button
-                      id="sendbutton"
-                      type="submit"
-                      class="btn btn-success btn-lg cf-button header-btn1"
-                      onclick="sendEmail()"
-                    >
-                      SEND IT
-                    </button>
-                  
+                  <button
+                    id="sendbutton"
+                    type="submit"
+                    class="btn btn-success btn-lg cf-button header-btn1"
+                  >
+                    SEND IT
+                  </button>
                 </div>
               </div>
             </form>
@@ -750,9 +748,5 @@
     <script defer src="js/freelancer.min.js"></script>
     <script defer src="js/oldfreelancer.min.js"></script>
     <script defer src="js/main.js"></script>
-
-    <!-- Email send script-->
-    <script defer src="https://smtpjs.com/v3/smtp.js"></script>
-    <script defer src="js/mail.js"></script>
   </body>
 </html>
