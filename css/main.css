@@ -138,6 +138,10 @@
     align-content: center;
 }
 
+.alert-danger {
+    margin-top:20px;
+}
+
  @media only screen and (min-width:1170px) {
      .portfolio-caption {
          display:none;
