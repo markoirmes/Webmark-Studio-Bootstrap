@@ -628,10 +628,8 @@
           <div class="col-lg-8 col-lg-offset-2">
             "
             <form
-            name="contact" method="POST" data-netlify="true"
+            name="contact" 
             >
-
-            https://www.formbackend.com/f/5a1bc676406c2826
               <div class="row control-group">
                 <div
                   class="form-group col-xs-12 floating-label-form-group controls cf-border margin5"
@@ -687,20 +685,16 @@
               <div id="success"></div>
               <div class="row">
                 <div class="form-group col-xs-12">
-                  <center>
-                    <div
-                      class="g-recaptcha margin-bottom20"
-                      data-sitekey="6Ley0xkUAAAAAOmJpd3jPmVjiYGc364Zr3Ck74_3"
-                    ></div>
-                    &nbsp;
+                
                     <button
                       id="sendbutton"
                       type="submit"
                       class="btn btn-success btn-lg cf-button header-btn1"
+                      onclick="sendEmail()"
                     >
                       SEND IT
                     </button>
-                  </center>
+                  
                 </div>
               </div>
             </form>
@@ -760,5 +754,6 @@
 
     <!-- Email send script-->
     <script defer src="https://smtpjs.com/v3/smtp.js"></script>
+    <script defer src="js/mail.js"></script>
   </body>
 </html>
