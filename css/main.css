@@ -132,6 +132,12 @@
 
  .caption-content p {margin-top:10px;}
 
+.buttonDiv {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
  @media only screen and (min-width:1170px) {
      .portfolio-caption {
          display:none;
