@@ -1,10 +1,10 @@
 /*.jpg
   Cache-Control: public, s-max-age=604800
-  /*.jpeg
+/*.jpeg
   Cache-Control: public, s-max-age=604800
-  /*.svg
+/*.svg
   Cache-Control: public, s-max-age=604800
-  /*.png
+/*.png
   Cache-Control: public, s-max-age=604800
 /*.css
   Cache-Control: public, s-max-age=604800
