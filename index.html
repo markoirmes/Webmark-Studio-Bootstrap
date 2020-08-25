@@ -382,7 +382,7 @@ time.
 </div>
 <div class="row margin10">
 <div class="col-lg-8 col-lg-offset-2">
-<form name=sentMessage id=contactForm method=post netlify-honeypot="rejected" data-netlify="true">
+<form name=sentMessage id=contactForm method=post netlify-honeypot="rejected" data-netlify-recaptcha="true" data-netlify="true">
 <input type=hidden name=form-name value=sentMessage />
   <input name="rejected" style="position:absolute; z-index:-1;left:-10000px;">
 <div class="row control-group">
@@ -408,6 +408,7 @@ time.
 </div>
 <br/>
 <div id=success></div>
+<div data-netlify-recaptcha="true"></div>
 <div class=row>
 <div class="form-group col-xs-12 buttonDiv">
 <input id=sendbutton type=submit class="btn btn-success btn-lg cf-button header-btn1"/>
