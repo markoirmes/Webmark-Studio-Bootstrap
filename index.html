@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang=en>
-<head>
+<!-- <head>
 <meta charset=utf-8 />
 <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 <meta name=description content="Web Design Agency specialized in WordPress, WooCommerce and Elementor"/>
@@ -410,7 +410,6 @@ time.
 <br/>
 <div id=success></div>
 <div data-netlify-recaptcha="true"></div>
- <!-- <div class="g-recaptcha" data-sitekey="6Lc0D8MZAAAAANvwQz2U-wRzkY0h06wcVCg4AvCM"></div> -->
 <div class=row>
 <div class="form-group col-xs-12 buttonDiv">
 <input id=sendbutton type=submit class="btn btn-success btn-lg cf-button header-btn1"/>
@@ -1044,4 +1043,7 @@ var g=d.find("> .active"),h=e&&a.support.transition&&((g.length&&g.hasClass("fad
 var c=function(b,d){(this.options=a.extend({},c.DEFAULTS,d)),(this.$target=a(this.options.target).on("scroll.bs.affix.data-api",a.proxy(this.checkPosition,this)).on("click.bs.affix.data-api",a.proxy(this.checkPositionWithEventLoop,this))),(this.$element=a(b)),(this.affixed=null),(this.unpin=null),(this.pinnedOffset=null),this.checkPosition();};(c.VERSION="3.3.7"),(c.RESET="affix affix-top affix-bottom"),(c.DEFAULTS={offset:0,target:window}),(c.prototype.getState=function(a,b,c,d){var e=this.$target.scrollTop(),f=this.$element.offset(),g=this.$target.height();if(null!=c&&"top"==this.affixed)return e<c&&"top";if("bottom"==this.affixed)return null!=c?!(e+this.unpin<=f.top)&&"bottom":!(e+g<=a-d)&&"bottom";var h=null==this.affixed,i=h?e:f.top,j=h?g:b;return null!=c&&e<=c?"top":null!=d&&i+j>=a-d&&"bottom";}),(c.prototype.getPinnedOffset=function(){if(this.pinnedOffset)return this.pinnedOffset;this.$element.removeClass(c.RESET).addClass("affix");var a=this.$target.scrollTop(),b=this.$element.offset();return(this.pinnedOffset=b.top-a);}),(c.prototype.checkPositionWithEventLoop=function(){setTimeout(a.proxy(this.checkPosition,this),1);}),(c.prototype.checkPosition=function(){if(this.$element.is(":visible")){var b=this.$element.height(),d=this.options.offset,e=d.top,f=d.bottom,g=Math.max(a(document).height(),a(document.body).height());"object"!=typeof d&&(f=e=d),"function"==typeof e&&(e=d.top(this.$element)),"function"==typeof f&&(f=d.bottom(this.$element));var h=this.getState(g,b,e,f);if(this.affixed!=h){null!=this.unpin&&this.$element.css("top","");var i="affix"+(h?"-"+h:""),j=a.Event(i+".bs.affix");if((this.$element.trigger(j),j.isDefaultPrevented()))return;(this.affixed=h),(this.unpin="bottom"==h?this.getPinnedOffset():null),this.$element.removeClass(c.RESET).addClass(i).trigger(i.replace("affix","affixed")+".bs.affix");}
 "bottom"==h&&this.$element.offset({top:g-b-f});}});var d=a.fn.affix;(a.fn.affix=b),(a.fn.affix.Constructor=c),(a.fn.affix.noConflict=function(){return(a.fn.affix=d),this;}),a(window).on("load",function(){a('[data-spy="affix"]').each(function(){var c=a(this),d=c.data();(d.offset=d.offset||{}),null!=d.offsetBottom&&(d.offset.bottom=d.offsetBottom),null!=d.offsetTop&&(d.offset.top=d.offsetTop),b.call(c,d);});});})(jQuery);!(function(o){"use strict";o(".page-scroll a").bind("click",function(t){var l=o(this);o("html, body").stop().animate({scrollTop:o(l.attr("href")).offset().top-50},1250,"easeInOutExpo"),t.preventDefault();}),o("body").scrollspy({target:".navbar-fixed-top",offset:51}),o(".navbar-collapse ul li a").click(function(){o(".navbar-toggle:visible").click();}),o("#mainNav").affix({offset:{top:100}}),o(function(){o("body").on("input propertychange",".floating-label-form-group",function(t){o(this).toggleClass("floating-label-form-group-with-value",!!o(t.target).val());}).on("focus",".floating-label-form-group",function(){o(this).addClass("floating-label-form-group-with-focus");}).on("blur",".floating-label-form-group",function(){o(this).removeClass("floating-label-form-group-with-focus");});});})(jQuery);</script>
 </body>
+-->
+  
+  <h1>Coming soon</h1>
 </html>
